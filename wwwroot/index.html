@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Over 9000 Results!</title>
+        <link rel="stylesheet" href="styles.css">
+        
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script> 
+
+        <!--JQueryUI-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>
+
+        <!--JqueryUI Theme-->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/smoothness/jquery-ui.css" integrity="sha384-AUxBc4TYOEuk4Hp24650vW1R1zXkuFE8IK5cgdi5qyXRKuc1Xx2ndBiefujL0Qho" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header>
+            <h1 id="engineName" onclick="changeBackground()">Over 9000 Results!</h1>
+        </header>
+
+        <main>
+            <input type="text" id="query" placeholder="Enter your search query">
+            <button id="searchBtn" onclick="search()">Search</button>
+            <button id="luckyBtn" onclick="feelingLucky()">I'm Feeling Lucky</button>
+            <button id="timeBtn" onclick="showTime()">Show Time</button>
+
+            <div id="searchResults"></div>
+            <div id="time"></div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

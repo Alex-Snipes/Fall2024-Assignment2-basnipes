@@ -1,0 +1,52 @@
+/* Basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Set background image */
+body {
+    background-image: url("/img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Center the main content */
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#searchResults, #time {
+    visibility: hidden;
+    margin-top: 20px;
+}
+
+#time {
+    font-size: 20px;
+}
