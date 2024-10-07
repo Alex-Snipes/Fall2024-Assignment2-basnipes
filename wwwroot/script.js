@@ -60,14 +60,19 @@ function feelingLucky() {
     });
 }
 
+function showTime() {
+    const currentTime = new Date().toLocaleTimeString();
+    $('#time').text(currentTime).css('visibility', 'visible');
+}
+
 // Toggle background image between two images
 let imageToggle = false;
 
 function changeBackground() {
     if (imageToggle) {
-        document.body.style.backgroundImage = "url('/img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg')";
+        document.body.style.backgroundImage = "url('./img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg')";
     } else {
-        document.body.style.backgroundImage = "url('/img/joshua-earle-XnDQ9uXILRE-unsplash.jpg')";
+        document.body.style.backgroundImage = "url('./img/joshua-earle-XnDQ9uXILRE-unsplash.jpg')";
     }
     imageToggle = !imageToggle; // Toggle the value for next click
 }

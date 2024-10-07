@@ -18,7 +18,7 @@ h1 {
 
 /* Set background image */
 body {
-    background-image: url("/img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg");
+    background-image: url("./img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
