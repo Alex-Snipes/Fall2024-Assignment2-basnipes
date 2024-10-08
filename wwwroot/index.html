@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Over 9000 Results!</title>
-        <link rel="stylesheet" href="styles.css">
-        
+        <link rel="stylesheet" href="style.css">
         <!--JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script> 
 
@@ -15,7 +14,7 @@
 
         <!--JqueryUI Theme-->
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/smoothness/jquery-ui.css" integrity="sha384-AUxBc4TYOEuk4Hp24650vW1R1zXkuFE8IK5cgdi5qyXRKuc1Xx2ndBiefujL0Qho" crossorigin="anonymous">
-
+        
     </head>
     <body>
         <header>
@@ -23,8 +22,11 @@
         </header>
 
         <main>
+            <h2>Over 9000 Results!</h2>
+            <br>
             <input type="text" id="query" placeholder="Enter your search query">
-            <button id="searchBtn" onclick="apiSearch()">Search</button>
+            <br>
+            <button id="search" onclick="apiSearch()">Search</button>
             <button id="luckyBtn" onclick="feelingLucky()">I'm Feeling Lucky</button>
             <button id="timeBtn" onclick="showTime()">Show Time</button>
 

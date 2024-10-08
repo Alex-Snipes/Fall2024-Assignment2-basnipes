@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fall2024-Assignment2-basnipes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8f910ddaf95046018b4b8a60350e661d5eb643f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe988aee0abb6b1372564e9e1b3d72746a83ee9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fall2024-Assignment2-basnipes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fall2024-Assignment2-basnipes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,37 +16,98 @@ h1 {
     cursor: pointer;
 }
 
-/* Set background image */
-body {
-    background-image: url("./img/joanna-kosinska-PbgY3ptgA4A-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+h2 {
+    color: #000000;
 }
 
-/* Center the main content */
+/* Set background image */
+body {
+    background-image: url("./img/two.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #ffa600; /* Fallback color */
+}
+
+/* Styling the main container */
 main {
     text-align: center;
     margin-top: 100px;
+    background-color: rgba(255, 228, 181, 0.8); /* Light orange transparent background */
+    padding: 20px;
+    border-radius: 15px; /* Slight rounding of the main section */
 }
 
+/* Styling the input field */
 input {
     padding: 10px;
     font-size: 16px;
     width: 300px;
+    border: 2px solid #ff8c00; /* Orange border */
+    border-radius: 25px;        /* Rounded corners */
+    background-color: #ffe4b2;  /* Light orange background */
+    color: #000;                /* Black text color */
+    outline: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+input:focus {
+    background-color: #ffcc80; /* Darker orange when focused */
+}
+
+/* Styling the buttons */
 button {
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #ff8c00; /* Orange background */
+    color: white;              /* White text */
+    border: 2px solid #ff8c00; /* Orange border */
+    border-radius: 25px;        /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-#searchResults, #time {
+button:hover {
+    background-color: #e07b00; /* Darker orange when hovering */
+}
+
+button:active {
+    background-color: #cc6e00; /* Even darker orange when clicked */
+}
+
+#searchResults {
     visibility: hidden;
     margin-top: 20px;
+    overflow: auto;
+    max-height: 600px;  /* Adjust height as needed */
+    width: 100%;
 }
 
 #time {
+    visibility: hidden;
+    margin-top: 20px;
     font-size: 20px;
+}
+
+/* Styling individual search result items */
+.result-item {
+    margin: 15px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-item a {
+    font-weight: bold;
+    color: #ff8c00; /* Orange color for links */
+    text-decoration: none;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+.result-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
 }
